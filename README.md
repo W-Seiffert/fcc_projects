@@ -2,5 +2,5 @@ In this folder you find a whole range of programming exercises that have been re
 In detail, these were the FCC courses
 * College Algebra with Python,
 * Scientific Computing with Python,
-* Data Analysis with Python and
+* Data Analysis with Python,
 * Machine Learning with Python.
