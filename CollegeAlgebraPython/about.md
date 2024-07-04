@@ -39,7 +39,7 @@ This unit will show you how to develop linear equations from two points.
 In this unit, you will learn how to find common factors and divide them out. This will be useful when simplifying fractions and factoring square roots.  
 * Factoring
 
-### \#PROJECT 1: Multi-Function Calculator  
+### \# **PROJECT 1:** Multi-Function Calculator  
 This is one of the required projects to earn your certification.  
 For this project, you will build a multi-function calculator.  
 
