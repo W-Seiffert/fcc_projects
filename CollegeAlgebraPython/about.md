@@ -39,7 +39,7 @@ This unit will show you how to develop linear equations from two points.
 In this unit, you will learn how to find common factors and divide them out. This will be useful when simplifying fractions and factoring square roots.  
 * Factoring
 
-### \# **PROJECT 1:** Multi-Function Calculator  
+### \# PROJECT 1: Multi-Function Calculator  
 This is one of the required projects to earn your certification.  
 For this project, you will build a multi-function calculator.  
 
@@ -62,7 +62,7 @@ In this unit, you will see how you can use the algebra you learned so far to sol
 This unit will go beyond linear equations, to work with exponents and graph parabolas. You will learn how to find key points in parabolas and how to solve quadratic equations.  
 * Quadratics
 
-### \#PROJECT 2: Graphing Calculator
+### \# PROJECT 2: Graphing Calculator
 This is one of the required projects to earn your certification.  
 For this project, you will build a graphing calculator.  
 
@@ -71,7 +71,7 @@ This unit will show you many different types of "parent" graphs, the basic patte
 * Parent Graphs
 * Parent Graphs and Polynomials: Extra  
 
-### PROJECT 3: Three Math Games
+### \# PROJECT 3: Three Math Games
 This is one of the required projects to earn your certification.  
 For this project, you will build three math games.  
 
@@ -89,7 +89,7 @@ This unit will show you how to calculate interest, loan payments, and the estima
 This unit will show you how exponents and logarithms are inverse functions, and how you can use these functions in various applications.  
 * Exponents and Logarithms  
 
-### PROJECT 4: Financial Calculator  
+### \# PROJECT 4: Financial Calculator  
 This is one of the required projects to earn your certification.  
 For this project, you will build a financial calculator.  
 
@@ -98,6 +98,6 @@ This will be the last unit in this course. Let's look at how you can connect you
 * Spreadsheets and Additional Resources
 * More Resources in Colab  
 
-### PROJECT 5: Data Graph Explorer  
+### \# PROJECT 5: Data Graph Explorer  
 This is one of the required projects to earn your certification.  
 For this project, you will build a data graph explorer.  
