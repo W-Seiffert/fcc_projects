@@ -1,5 +1,5 @@
 body {
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
   background: #FAEBD7;
 }
@@ -21,6 +21,10 @@ h1 {
   display: grid;
   grid-template-columns: max-content max-content;
   grid-gap: 8px;
+  margin-bottom: 20px;
+}
+.personal-data label:not(:last-child) {
+  font-weight: bold;
 }
 
 label {
@@ -56,10 +60,11 @@ select {
 input[type="submit"] {
   /* display: block; */
   margin-top: 20px;
-  padding: 5px 10px;
+  margin-bottom: 20px;
+  padding: 5px 15px;
   box-shadow: 5px 5px 5px silver;
   cursor: pointer;
   background-color: white;
-  font-size: 1em;
+  font-size: 1.25em;
   font-weight: bold;
 }
