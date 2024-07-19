@@ -1,1 +1,65 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+  background: #FAEBD7;
+}
 
+h1 {
+  margin: 1em auto;
+  text-align: center;
+  border-style: inset;
+  border-width: 7px;
+  padding: 10px;
+  background: #FCF4E8;
+}
+
+.info-instructions {
+  font-style: italic;
+}
+
+.personal-data {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-gap: 8px;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.user_input {
+  margin-left: 1.5rem;
+}
+
+#box_1, #box_2, #box_3, #box_4 {
+  margin: 5px auto;
+  border-style: dotted;
+  border-radius: 10px;
+  padding: 10px;
+  background: #FCF4E8;
+}
+
+select {
+  background: white;
+}
+
+#textfield {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#submit_button {
+  text-align: center;
+}
+
+input[type="submit"] {
+  /* display: block; */
+  margin-top: 20px;
+  padding: 5px 10px;
+  box-shadow: 5px 5px 5px silver;
+  cursor: pointer;
+  background-color: white;
+  font-size: 1em;
+  font-weight: bold;
+}
