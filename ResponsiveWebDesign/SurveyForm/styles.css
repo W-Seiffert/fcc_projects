@@ -4,6 +4,22 @@ body {
   background: #FAEBD7;
 }
 
+#box_1, #box_2, #box_3, #box_4 {
+  margin: 5px auto;
+  border-style: dotted;
+  border-radius: 10px;
+  padding: 10px;
+  background: #FCF4E8;
+}
+
+#gender-radio-btns {
+  margin: 0.5rem 0;
+}
+#gender-radio-btns label {
+  display: inline;
+  font-weight: normal;
+}
+
 h1 {
   margin: 1em auto;
   text-align: center;
@@ -17,46 +33,6 @@ h1 {
   font-style: italic;
 }
 
-.personal-data {
-  display: grid;
-  grid-template-columns: max-content max-content;
-  grid-gap: 8px;
-  margin-bottom: 20px;
-}
-.personal-data label:not(:last-child) {
-  font-weight: bold;
-}
-
-label {
-  display: block;
-  margin: 0.5rem 0;
-}
-
-.user_input {
-  margin-left: 1.5rem;
-}
-
-#box_1, #box_2, #box_3, #box_4 {
-  margin: 5px auto;
-  border-style: dotted;
-  border-radius: 10px;
-  padding: 10px;
-  background: #FCF4E8;
-}
-
-select {
-  background: white;
-}
-
-#textfield {
-  width: 100%;
-  box-sizing: border-box;
-}
-
-#submit_button {
-  text-align: center;
-}
-
 input[type="submit"] {
   /* display: block; */
   margin-top: 20px;
@@ -67,4 +43,36 @@ input[type="submit"] {
   background-color: white;
   font-size: 1.25em;
   font-weight: bold;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.personal-data {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-gap: 8px;
+  margin-bottom: 20px;
+}
+.personal-data label {
+  font-weight: bold;
+}
+
+select {
+  background: white;
+}
+
+#submit-button {
+  text-align: center;
+}
+
+#textfield {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.user-input {
+  margin-left: 1.5rem;
 }
