@@ -17,25 +17,25 @@
         <label id="name-label" for="name">Your name:</label><input id="name" type="text" placeholder="Please enter your name" required />
         <label id="email-label" for="email">Your e-mail:</label><input id="email" type="email" placeholder="Pleaser enter your e-mail" required />
         <label id="number-label" for="number">Your age:</label><input id="number" type="number" min="1" max="99" placeholder="Please enter your age" />
-        <label id="gender-label" for="gender">Your gender:</label><label><input name="gender" type="radio" value="male"/>male <input name="gender" type="radio" value="female"/>female</label>
+        <label id="gender-label">Your gender:</label><div id="gender-radio-btns"><label class="label-radio-btn"><input name="gender" type="radio" value="male" />male</label> <label class="label-radio-btn"><input name="gender" type="radio" value="female" />female</label></div>
       </div>    
 
       <!-- self-assessment as reader -->
       <div id="box_1">
         <p class="info-instructions">Regarding your reading habits, what kind of reader would you consider yourself?</p>
-        <div class="user_input">
-          <label for="self-assessment"><input name="self-assessment" type="radio" value="non-reader"/>non-reader</label>
-          <label for="self-assessment"><input name="self-assessment" type="radio" value="occasional reader"/>occasional reader</label>
-          <label for="self-assessment"><input name="self-assessment" type="radio" value="regular reader"/>regular reader</label>
-          <label for="self-assessment"><input name="self-assessment" type="radio" value="frequent reader"/>frequent reader</label>
-          <label for="self-assessment"><input name="self-assessment" type="radio" value="obsessive reader"/>obsessive reader</label>
+        <div class="user-input">
+          <label><input name="self-assessment" type="radio" value="non-reader"/>non-reader</label>
+          <label><input name="self-assessment" type="radio" value="occasional reader"/>occasional reader</label>
+          <label><input name="self-assessment" type="radio" value="regular reader"/>regular reader</label>
+          <label><input name="self-assessment" type="radio" value="frequent reader"/>frequent reader</label>
+          <label><input name="self-assessment" type="radio" value="obsessive reader"/>obsessive reader</label>
         </div>
       </div>
 
       <!-- "reading expenses" -->
       <div id="box_2">
         <p class="info-instructions">How much do you spent on your reading materials per year?</p>
-        <div class="user_input">
+        <div class="user-input">
           <select id="dropdown" required>
             <option value="">?</option>
             <option value="<50">less than 50$</option>
@@ -50,7 +50,7 @@
       <!-- preferred reading materials -->
       <div id="box_3">
         <p class="info-instructions">What types of reading materials do you prefer?<br>(multiple answers possible)</p>
-        <div class="user_input">
+        <div class="user-input">
           <label><input type="checkbox" value="fiction"/>Fiction / Belles Lettres</label>
           <label><input type="checkbox" value="non-fiction"/>Non-Fiction / Specialist Books</label>
           <label><input type="checkbox" value="newspapers"/>Newspapers</label>
@@ -62,13 +62,13 @@
       <!-- some favourite readings --> 
       <div id="box_4">
         <p class="info-instructions">Please name at least three of your favourite readings of the year:</p>
-        <div class="user_input">
+        <div class="user-input">
           <textarea id="textfield" rows=4></textarea>
         </div>  
       </div>
 
       <!-- submit button -->
-      <div id="submit_button">
+      <div id="submit-button">
         <input id="submit" type="submit" value="Submit" />
       </div>
 
